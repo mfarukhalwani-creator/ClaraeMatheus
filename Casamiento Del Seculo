@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clara & Matheus - Lista de Presentes</title>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'Montserrat',sans-serif;background:#fdf8f6;color:#4a3f3a}
+.hero{background:linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.15)),url('https://i.imgur.com/9zBC9Bl.jpeg');background-size:cover;background-position:center 30%;height:85vh;display:flex;align-items:center;justify-content:center;text-align:center;color:white}
+.hero h1{font-family:'Great Vibes',cursive;font-size:70px;margin:0;text-shadow:0 3px 15px rgba(0,0,0,.5)}
+.container{max-width:640px;margin:-60px auto 0;padding:20px;position:relative;z-index:2}
+.intro{background:white;border-radius:20px;padding:30px;box-shadow:0 10px 30px rgba(0,0,0,.08);text-align:center;margin-bottom:20px}
+.intro h2{font-family:'Great Vibes',cursive;font-size:36px;color:#8d5a6a;margin:0 0 10px}
+.card{background:white;border-radius:14px;padding:14px 18px;margin:10px 0;display:flex;justify-content:space-between;align-items:center;box-shadow:0 3px 10px rgba(0,0,0,.05)}
+.price{font-weight:600;color:#8d5a6a}
+.btn{background:#8d5a6a;color:white;border:none;padding:10px 18px;border-radius:20px;cursor:pointer;font-size:13px}
+.pix-box{background:#4a3f3a;color:white;border-radius:20px;padding:35px;margin-top:30px;text-align:center;position:sticky;bottom:20px}
+.pix-key{background:white;color:#4a3f3a;padding:12px;border-radius:10px;font-weight:bold;word-break:break-all}
+.categoria{margin:30px 0 10px 5px;font-weight:600;color:#8d5a6a;font-size:14px;letter-spacing:1px}
+</style>
+</head>
+<body>
+<div class="hero"><div><h1>Clara & Matheus</h1><p style="letter-spacing:5px">VAMOS CASAR</p></div></div>
+<div class="container">
+<div class="intro"><h2>Nosso cantinho de amor</h2><p>Escolha uma cota abaixo com muito carinho. Sua presença já é nosso maior presente!</p></div>
+
+<div class="categoria">R$ 50 - MIMOS QUE AJUDAM</div>
+<div class="card"><div><b> Ajuda no Começo da Vida a Dois</b></div><div><span class="price">R$50</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Saleiro e Pimenteiro do Casal</b></div><div><span class="price">R$50</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Kit de Limpeza da Casa Nova</b></div><div><span class="price">R$50</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Caixa de Chocolates Lua de Mel</b></div><div><span class="price">R$50</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Formas de Gelo Diferentonas</b></div><div><span class="price">R$50</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+
+<div class="categoria">R$ 80 - ESSENCIAIS</div>
+<div class="card"><div><b> Jantar na Toscana</b></div><div><span class="price">R$80</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Conjunto de Taças</b></div><div><span class="price">R$80</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Jogo de Talheres</b></div><div><span class="price">R$80</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Kit Banheiro Cheiroso</b></div><div><span class="price">R$80</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> 10 Cafés da Manhã Juntos</b></div><div><span class="price">R$80</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+
+<div class="categoria">R$ 100 - CASA</div>
+<div class="card"><div><b> Cafeteira - Acordar ao Seu Lado</b></div><div><span class="price">R$100</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Torradeira Retrô</b></div><div><span class="price">R$100</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Vassoura Mágica + Rodo</b></div><div><span class="price">R$100</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Porta Retrato do Nosso Sim</b></div><div><span class="price">R$100</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Kit Velas Aromáticas</b></div><div><span class="price">R$100</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+
+<div class="categoria">R$ 120</div>
+<div class="card"><div><b> Toalhas Bordadas C&M</b></div><div><span class="price">R$120</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Jogo de Pratos Dia a Dia</b></div><div><span class="price">R$120</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Frigideira Antiaderente</b></div><div><span class="price">R$120</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Vasos de Plantas da Casa</b></div><div><span class="price">R$120</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Cesto de Roupa Suja Bonito</b></div><div><span class="price">R$120</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+
+<div class="categoria">R$ 150</div>
+<div class="card"><div><b> Tijolinho da Nossa Casa</b></div><div><span class="price">R$150</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Travesseiros Novos</b></div><div><span class="price">R$150</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Jogo de Potes Herméticos</b></div><div><span class="price">R$150</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Bolo do 1º Ano de Casados</b></div><div><span class="price">R$150</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Tapete de Banheiro Fofo</b></div><div><span class="price">R$150</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+
+<div class="categoria">R$ 180</div>
+<div class="card"><div><b> Panelas dos Sonhos</b></div><div><span class="price">R$180</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Luminária do Quarto</b></div><div><span class="price">R$180</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Conjunto de Facas</b></div><div><span class="price">R$180</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Manta de Sofá - Netflix a Dois</b></div><div><span class="price">R$180</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Caixa de Som - Nossa Playlist</b></div><div><span class="price">R$180</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+
+<div class="categoria">R$ 200</div>
+<div class="card"><div><b> Lua de Mel - Gôndola em Veneza</b></div><div><span class="price">R$200</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Adega de Vinhos Inicial</b></div><div><span class="price">R$200</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Cabideiro da Entrada</b></div><div><span class="price">R$200</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Prateleiras da Sala</b></div><div><span class="price">R$200</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Pedra de Pizza Italiana</b></div><div><span class="price">R$200</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+
+<div class="categoria">R$ 220</div>
+<div class="card"><div><b> Jogo de Cama 300 Fios</b></div><div><span class="price">R$220</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Panela de Pressão Elétrica</b></div><div><span class="price">R$220</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Capa de Sofá Nova</b></div><div><span class="price">R$220</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Espremedor de Frutas</b></div><div><span class="price">R$220</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Edredom de Casal</b></div><div><span class="price">R$220</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+
+<div class="categoria">R$ 250</div>
+<div class="card"><div><b> Airfryer do Casal</b></div><div><span class="price">R$250</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Conjunto de Panelas 5 peças</b></div><div><span class="price">R$250</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Aspirador de Pó Vertical</b></div><div><span class="price">R$250</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Espelho de Corpo Inteiro</b></div><div><span class="price">R$250</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Batedeira Planetária</b></div><div><span class="price">R$250</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+
+<div class="categoria">R$ 300 - PRESENTES DOS PADRINHOS</div>
+<div class="card"><div><b> Aspirador Robô - Nosso Filhinho</b></div><div><span class="price">R$300</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Diária Lua de Mel na Toscana</b></div><div><span class="price">R$300</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Poltrona do Cantinho da Leitura</b></div><div><span class="price">R$300</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b>Jogo de Jantar 20 Peças Completo</b></div><div><span class="price">R$300</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+<div class="card"><div><b> Cota Livre - Sonho Grande</b></div><div><span class="price">R$300</span> <button class="btn" onclick="copiar()">Presentear</button></div></div>
+
+<div class="pix-box">
+<h3 style="font-family:'Great Vibes',cursive;font-size:28px;margin:0">Presenteie com amor via Pix</h3>
+<div class="pix-key" id="chave">475.229.018-98</div>
+<button class="btn" style="background:white;color:#4a3f3a" onclick="copiar()">Copiar Chave Pix</button>
+<p style="font-size:11px;margin-top:15px;opacity:0.6">Em nome de Clara & Matheus</p>
+</div>
+
+</div>
+<script>function copiar(){navigator.clipboard.writeText(document.getElementById('chave').innerText);alert('Chave Pix copiada! Obrigado pelo carinho ❤️ - Clara & Matheus')}</script>
+</body></html>
